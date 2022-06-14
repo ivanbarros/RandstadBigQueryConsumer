@@ -1,0 +1,6 @@
+{
+  "Monitoring": {
+    "QueueName": "dev_monitoring_issue_notification",
+    "RoutingKey": "dev.monitoring.issue_notification"
+  }
+}

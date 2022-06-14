@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Randstad.GoogleBigQueryConsumer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "staging"
+      }
+    }
+  }
+}

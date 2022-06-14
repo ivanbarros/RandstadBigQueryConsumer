@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randstad.GoogleBigQueryConsumer", "Randstad.GoogleBigQueryConsumer\Randstad.GoogleBigQueryConsumer.csproj", "{3C405D89-ABDE-407E-BC36-AF4EFB271812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Live|Any CPU = Live|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Live|Any CPU.ActiveCfg = Live|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Live|Any CPU.Build.0 = Live|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{3C405D89-ABDE-407E-BC36-AF4EFB271812}.Test|Any CPU.Build.0 = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A4B7633-6339-45A3-823B-6D401AB70835}
+	EndGlobalSection
+EndGlobal

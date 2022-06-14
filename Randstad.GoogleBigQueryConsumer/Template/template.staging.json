@@ -1,0 +1,6 @@
+{
+  "Monitoring": {
+    "QueueName": "staging_monitoring_issue_notification",
+    "RoutingKey": "staging.monitoring.issue_notification"
+  }
+}

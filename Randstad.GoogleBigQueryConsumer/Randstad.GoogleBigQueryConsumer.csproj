@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Randstad.GoogleBigQueryConsumer</RootNamespace>
+    <UserSecretsId>8a539f07-1009-4171-b58e-f54e74cb055e</UserSecretsId>
+    <Configurations>Debug;Dev;Test;Staging;Live</Configurations>
+    <Version>1.0.0</Version>
+    <Deterministic>true</Deterministic>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Live|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dev|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Staging|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.BigQuery.V2" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.6" />
+    <PackageReference Include="Randstad.Logging" Version="2.1.1" />
+    <PackageReference Include="Randstad.MessageExchange" Version="2.4.0" />
+    <PackageReference Include="Randstad.ServiceDiscovery.Client" Version="1.0.10" />
+  </ItemGroup>
+
+</Project>
